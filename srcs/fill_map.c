@@ -6,7 +6,7 @@
 /*   By: sobouatt <sobouatt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 19:54:45 by sobouatt          #+#    #+#             */
-/*   Updated: 2022/03/28 19:57:03 by sobouatt         ###   ########.fr       */
+/*   Updated: 2022/03/28 22:37:25 by sobouatt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ char	**store_map(int ac, char **av)
 		printf("Error\nNot a .cub file\n");
 		return (NULL);
 	}
-	if (open(av[1], O_DIRECTORY) > 0	)
+	if (open(av[1], O_DIRECTORY) > 0)
 	{
 		printf("Error\nFile is a directory\n");
 		return (NULL);
